@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Premium Animated UI</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../page-css/logo.css">
+</head>
+
+<body class="theme-light">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-left">
+            <h3 class="brand">My<span>Studio</span></h3>
+        </div>
+
+        <div class="nav-right">
+            <button class="btn icon-btn" id="themeToggle" aria-label="Toggle theme">
+                <svg id="themeIcon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                    <path
+                        d="M12 3a1 1 0 0 1 1 1v1.2a1 1 0 0 1-2 0V4a1 1 0 0 1 1-1zM12 19a1 1 0 0 1 1 1v1.2a1 1 0 0 1-2 0V20a1 1 0 0 1 1-1zM4.22 5.47a1 1 0 0 1 1.41 0L6.9 7.74a1 1 0 1 1-1.41 1.41L4.22 6.88a1 1 0 0 1 0-1.41zM17.1 18.06a1 1 0 0 1 1.41 0l1.26 1.26a1 1 0 0 1-1.41 1.41L17.1 19.47a1 1 0 0 1 0-1.41zM3 12a1 1 0 0 1 1-1h1.2a1 1 0 0 1 0 2H4a1 1 0 0 1-1-1zM19 12a1 1 0 0 1 1-1h1.2a1 1 0 0 1 0 2H20a1 1 0 0 1-1-1zM4.22 18.53a1 1 0 0 1 0-1.41l1.26-1.26a1 1 0 1 1 1.41 1.41L5.63 18.53a1 1 0 0 1-1.41 0zM17.1 5.94a1 1 0 0 1 0-1.41l1.26-1.26a1 1 0 1 1 1.41 1.41L18.5 5.94a1 1 0 0 1-1.41 0z">
+                    </path>
+                </svg>
+            </button>
+
+            <a href="../index.html" class="btn primary">Back to Home</a>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+        <section class="hero">
+            <div class="hero-card reveal">
+                <div class="hero-media">
+                    <img src="../images/branding/" alt="Preview Image">
+
+                    <!-- <video autoplay loop muted playsinline class="hero-video">
+                        <source src="../videos/yt-thumbnail/img.gif" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> -->
+                    <div class="floating-badge">Featured</div>
+                </div>
+
+
+                <div class="hero-body">
+                    <h1 class="hero-title">Amazing Article — <span>Design & Motion</span></h1>
+                    <p class="lead">Premium animated UI built with pure CSS & small JS. Subtle motion, glass cards, and
+                        dark/light themes for a modern look.</p>
+
+                    <div class="actions">
+                        <button class="btn ghost" id="readMore">Read Article</button>
+
+                        <div class="reactions">
+                            <button class="like-btn action-sm" data-type="like" aria-label="like">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path
+                                        d="M12 21s-6.716-4.35-9.5-7.2C-1.2 10.6 3.5 5 8.5 6.5c1.9.6 3.5 2.4 3.5 2.4s1.6-1.8 3.5-2.4C20.5 5 25.2 10.6 21.5 13.8 18.716 16.65 12 21 12 21z" />
+                                </svg>
+                                <span class="count" id="likeCount">1328</span>
+                            </button>
+
+                            <button class="dislike-btn action-sm" data-type="dislike" aria-label="dislike">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path
+                                        d="M12 3s6.716 4.35 9.5 7.2C25.2 13.4 20.5 19 15.5 17.5c-1.9-.6-3.5-2.4-3.5-2.4s-1.6 1.8-3.5 2.4C3.5 19  -1.2 13.4 2.5 10.2 5.284 7.35 12 3 12 3z" />
+                                </svg>
+                                <span class="count" id="dislikeCount">111</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARDS GRID -->
+        <section class="cards-container">
+            <h2 class="section-title reveal">More Articles</h2>
+
+            <div class="cards grid">
+                <!-- Generate 10 cards -->
+                <!-- Each card uses .reveal which will animate on load/scroll -->
+                <article class="card">
+                    <div class="card-media">
+                        <img src="../images/branding/" alt="Preview Image">
+                        <!-- <video src="../videos/wordpress-videos/video1.mp4" muted loop preload="metadata"></video> -->
+                    </div>
+                </article>
+
+
+
+
+                <article class="card">
+                    <div class="card-media">
+                        <img src="../images/logo/img2.jpg" alt="Preview Image">
+                        <!-- <video src="../videos/wordpress-videos/video2.mp4" muted loop preload="metadata"></video> -->
+                    </div>
+                </article>
+
+
+                <article class="card">
+                    <div class="card-media">
+                        <img src="../images/logo/img3.png" alt="Preview Image">
+                        <!-- <video src="../videos/wordpress-videos/video2.mp4" muted loop preload="metadata"></video> -->
+                    </div>
+                </article>
+
+                <!-- <article class="card">
+                    <div class="card-media">
+                        <img src="../images/yt-thumbnail/img4.jpg" alt="Preview Image">
+                        <video src="../videos/wordpress-videos/video2.mp4" muted loop preload="metadata"></video>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-media">
+                        <img src="../images/yt-thumbnail/img5.jpg" alt="Preview Image">
+                        <video src="../videos/wordpress-videos/video2.mp4" muted loop preload="metadata"></video>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-media">
+                        <img src="../images/yt-thumbnail/img6.jpg" alt="Preview Image">
+                        <video src="../videos/wordpress-videos/video2.mp4" muted loop preload="metadata"></video>
+                    </div>
+                </article> -->
+                <!-- <article class="card reveal" tabindex="0">
+                    <div class="card-media"><img src="https://via.placeholder.com/600x360?text=Card+4" alt=""></div>
+                    <div class="card-body">
+                        <h3>Card Title 4</h3>
+                        <p>Maecenas facilisis magna in dui iaculis feugiat. Use images you like.</p>
+                        <div class="card-meta">
+                            <span class="tag">Inspiration</span>
+                            <button class="btn sm">Read</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card reveal" tabindex="0">
+                    <div class="card-media"><img src="https://via.placeholder.com/600x360?text=Card+5" alt=""></div>
+                    <div class="card-body">
+                        <h3>Card Title 5</h3>
+                        <p>Aliquam tincidunt justo sed nunc viverra, at fermentum leo luctus.</p>
+                        <div class="card-meta">
+                            <span class="tag">Trends</span>
+                            <button class="btn sm">Read</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card reveal" tabindex="0">
+                    <div class="card-media"><img src="https://via.placeholder.com/600x360?text=Card+6" alt=""></div>
+                    <div class="card-body">
+                        <h3>Card Title 6</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                        <div class="card-meta">
+                            <span class="tag">Tips</span>
+                            <button class="btn sm">Read</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card reveal" tabindex="0">
+                    <div class="card-media"><img src="https://via.placeholder.com/600x360?text=Card+7" alt=""></div>
+                    <div class="card-body">
+                        <h3>Card Title 7</h3>
+                        <p>Integer id nisl nec sapien bibendum egestas. Add your own data.</p>
+                        <div class="card-meta">
+                            <span class="tag">Code</span>
+                            <button class="btn sm">Read</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card reveal" tabindex="0">
+                    <div class="card-media"><img src="https://via.placeholder.com/600x360?text=Card+8" alt=""></div>
+                    <div class="card-body">
+                        <h3>Card Title 8</h3>
+                        <p>Vestibulum eget magna eget velit hendrerit varius. Clean layout.</p>
+                        <div class="card-meta">
+                            <span class="tag">Design</span>
+                            <button class="btn sm">Read</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card reveal" tabindex="0">
+                    <div class="card-media"><img src="https://via.placeholder.com/600x360?text=Card+9" alt=""></div>
+                    <div class="card-body">
+                        <h3>Card Title 9</h3>
+                        <p>Fusce fringilla nulla sit amet turpis elementum, ac feugiat ipsum.</p>
+                        <div class="card-meta">
+                            <span class="tag">Layout</span>
+                            <button class="btn sm">Read</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card reveal" tabindex="0">
+                    <div class="card-media"><img src="https://via.placeholder.com/600x360?text=Card+10" alt=""></div>
+                    <div class="card-body">
+                        <h3>Card Title 10</h3>
+                        <p>Curabitur sit amet urna ac leo tincidunt posuere. Final sample card.</p>
+                        <div class="card-meta">
+                            <span class="tag">UX</span>
+                            <button class="btn sm">Read</button>
+                        </div>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div>
+                <strong>MyStudio</strong> — Premium UI examples & templates.
+            </div>
+            <div class="socials">
+                <!-- <a href="#" aria-label="twitter">Twitter</a> -->
+                <!-- <a href="#" aria-label="dribbble">Dribbble</a> -->
+                <a href="https://github.com/soheeras" aria-label="github">GitHub</a>
+            </div>
+        </div>
+        <small>© <span id="year"></span> MyStudio — All rights reserved</small>
+    </footer>
+
+    <!-- JS: theme toggle, simple interactions, reveal on scroll -->
+    <script>
+        // year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // theme toggle
+        const body = document.body;
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const setTheme = (mode) => {
+            body.classList.remove('theme-light', 'theme-dark');
+            body.classList.add(mode === 'dark' ? 'theme-dark' : 'theme-light');
+            // swap icon (sun/moon)
+            if (mode === 'dark') {
+                themeIcon.innerHTML = '<path d="M21.64 13a9 9 0 11-10.6-10.6 1 1 0 01.8 1.1 7 7 0 109.5 9.5 1 1 0 011.1.8z"/>';
+            } else {
+                themeIcon.innerHTML = '<path d="M12 3a1 1 0 0 1 1 1v1.2a1 1 0 0 1-2 0V4a1 1 0 0 1 1-1zM12 19a1 1 0 0 1 1 1v1.2a1 1 0 0 1-2 0V20a1 1 0 0 1 1-1zM4.22 5.47a1 1 0 0 1 1.41 0L6.9 7.74a1 1 0 1 1-1.41 1.41L4.22 6.88a1 1 0 0 1 0-1.41zM17.1 18.06a1 1 0 0 1 1.41 0l1.26 1.26a1 1 0 0 1-1.41 1.41L17.1 19.47a1 1 0 0 1 0-1.41zM3 12a1 1 0 0 1 1-1h1.2a1 1 0 0 1 0 2H4a1 1 0 0 1-1-1zM19 12a1 1 0 0 1 1-1h1.2a1 1 0 0 1 0 2H20a1 1 0 0 1-1-1zM4.22 18.53a1 1 0 0 1 0-1.41l1.26-1.26a1 1 0 1 1 1.41 1.41L5.63 18.53a1 1 0 0 1-1.41 0zM17.1 5.94a1 1 0 0 1 0-1.41l1.26-1.26a1 1 0 1 1 1.41 1.41L18.5 5.94a1 1 0 0 1-1.41 0z"></path>';
+            }
+            localStorage.setItem('site-theme', mode);
+        };
+        // init theme
+        const saved = localStorage.getItem('site-theme') || 'light';
+        setTheme(saved);
+        themeToggle.addEventListener('click', () => {
+            const next = body.classList.contains('theme-dark') ? 'light' : 'dark';
+            setTheme(next);
+        });
+
+        // like/dislike micro-interactions
+        document.querySelectorAll('.like-btn, .dislike-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const span = btn.querySelector('.count');
+                let n = parseInt(span.textContent || '0', 10);
+                // simple toggle animation
+                btn.animate([{ transform: 'scale(1.1)' }, { transform: 'scale(1)' }], { duration: 200 });
+                if (btn.classList.contains('active')) {
+                    btn.classList.remove('active');
+                    n = Math.max(0, n - 1);
+                } else {
+                    btn.classList.add('active');
+                    n = n + 1;
+                }
+                span.textContent = n;
+            });
+        });
+
+        // reveal on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        const ro = new IntersectionObserver(entries => {
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    ro.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(r => ro.observe(r));
+
+        // subtle card tilt on mousemove
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = (e.clientX - rect.left) / rect.width - 0.5;
+                const y = (e.clientY - rect.top) / rect.height - 0.5;
+                card.style.transform = `perspective(900px) rotateX(${(-y * 6)}deg) rotateY(${x * 8}deg) translateZ(0)`;
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = '';
+            });
+            // make card clickable (example)
+            card.addEventListener('click', () => {
+                // redirect to a WordPress-style page (change href as needed)
+                window.location.href = 'logo.html';
+            });
+        });
+    </script>
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+            const video = card.querySelector('video');
+
+            card.addEventListener('mouseenter', () => {
+                video.currentTime = 0;
+                video.play();
+            });
+
+            card.addEventListener('mouseleave', () => {
+                video.pause();
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
