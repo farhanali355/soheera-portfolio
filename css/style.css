@@ -1446,21 +1446,23 @@ body.modal{
 /*	09) GRAX CONTACT
 /*---------------------------------------------------*/
 
-.grax_tm_contact{
+.grax_tm_contact {
 	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	position: relative;
-	margin-bottom: 110px;
-	padding-top: 140px;
+	min-height: 100vh; /* full screen height */
+	display: flex;
+	align-items: center; /* vertical center */
+	justify-content: center; /* horizontal center */
+	padding-top: 0; /* optional */
+	margin: 0; /* optional */
 }
+
 .grax_tm_contact .contact_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	padding-top: 77px;
+	
 }
 .grax_tm_contact .left{
 	width: 50%;
@@ -2537,4 +2539,23 @@ body.dark .grax_tm_settings .cursor li .svg,
   transform: translateY(-4px);
   background: var(--accent);
   box-shadow: 0 8px 24px rgba(37,99,235,0.35);
+}
+
+
+
+
+
+
+
+
+
+/* .grax_tm_title_holder {
+	background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+	border-radius: 20px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+} */
+
+.grax_tm_title_holder .social-icons a:hover {
+	color: #00bcd4;
+	transform: scale(1.1);
 }
